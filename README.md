@@ -17,20 +17,22 @@ This project is a Node.js/Express application that provides a simple weather API
 
 ## Installation
 
-1. **Clone the repository:**
+## **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/farrukh-ali-khan/roadmap-weather-API.git
-   cd weather-api
-   ```
+```bash
+git clone https://github.com/farrukh-ali-khan/roadmap-weather-API.git
+cd weather-api
+```
 
-Install dependencies:
+## Install dependencies:
+
 npm install
 
-Create a .env file:
+## Create a .env file:
 
 Create a .env file in the root directory and add the following content, updating the values with your credentials:
 
+```bash
 PORT=3000
 WEATHER_API_KEY=YOUR_VISUAL_CROSSING_API_KEY
 
@@ -38,3 +40,4 @@ REDIS_HOST=127.0.0.1
 REDIS_PORT=6379
 REDIS_USERNAME=default
 REDIS_PASSWORD=your_redis_password
+```
