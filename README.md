@@ -1,5 +1,7 @@
 # Weather API with Redis Caching
 
+Project URL: https://roadmap.sh/projects/weather-api-wrapper-service
+
 This project is a Node.js/Express application that provides a simple weather API endpoint. It fetches weather data from [Visual Crossing](https://www.visualcrossing.com/weather-api) and caches the responses in Redis for 12 hours to reduce the number of external API calls. Additionally, it includes rate limiting using `express-rate-limit` to prevent abuse.
 
 ## Features
@@ -17,7 +19,7 @@ This project is a Node.js/Express application that provides a simple weather API
 
 ## Installation
 
-## **Clone the repository:**
+### Clone the repository:
 
 ```bash
 git clone https://github.com/farrukh-ali-khan/roadmap-weather-API.git
