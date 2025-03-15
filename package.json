@@ -1,0 +1,27 @@
+{
+  "name": "roadmap-weather-api",
+  "version": "1.0.0",
+  "description": "roadmap-weather-API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farrukh-ali-khan/roadmap-weather-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farrukh-ali-khan/roadmap-weather-API/issues"
+  },
+  "homepage": "https://github.com/farrukh-ali-khan/roadmap-weather-API#readme",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "redis": "^4.7.0"
+  }
+}
